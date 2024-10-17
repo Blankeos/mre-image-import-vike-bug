@@ -7,7 +7,8 @@
     "packages/without-plugin"
   ],
   "scripts": {
-    "dev:with": "bun --filter 'with-plugin' dev"
+    "dev:with": "bun --filter 'with-plugin' dev",
+    "dev:without": "bun --filter 'without-plugin' dev"
   },
   "devDependencies": {},
   "peerDependencies": {}
